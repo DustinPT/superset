@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Superset VERSION\n"
 "Report-Msgid-Bugs-To: avsarcoteli@gmail.com\n"
-"POT-Creation-Date: 2024-07-30 17:32-0600\n"
+"POT-Creation-Date: 2024-09-03 16:31+0800\n"
 "PO-Revision-Date: 2024-02-25 14:00+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: tr\n"
@@ -3240,6 +3240,9 @@ msgstr ""
 msgid "Dashboard [{}] just got created and chart [{}] was added to it"
 msgstr ""
 
+msgid "Dashboard cannot be copied due to invalid parameters."
+msgstr ""
+
 msgid "Dashboard could not be deleted."
 msgstr "Dashboard silinemedi."
 
@@ -3809,8 +3812,8 @@ msgid "Deleted: %s"
 msgstr "Silindi: %s"
 
 msgid ""
-"Deleting a tab will remove all content within it. You may still reverse "
-"this action with the"
+"Deleting a tab will remove all content within it and will deactivate any "
+"related alerts or reports. You may still reverse this action with the"
 msgstr ""
 
 msgid "Delimited long & lat single column"
@@ -4326,6 +4329,10 @@ msgstr ""
 
 msgid "Embed dashboard"
 msgstr ""
+
+#, fuzzy
+msgid "Embedded dashboard could not be deleted."
+msgstr "Dashboard silinemedi."
 
 msgid "Embedding deactivated."
 msgstr ""
@@ -7918,6 +7925,10 @@ msgstr "Yenileme aralığı"
 msgid "Refresh interval saved"
 msgstr "Yenileme aralığı kaydedildi"
 
+#, fuzzy
+msgid "Refresh table schema"
+msgstr "Tabloları listele"
+
 msgid "Refresh the default values"
 msgstr ""
 
@@ -8742,6 +8753,10 @@ msgstr ""
 msgid "Select a sheet name from the uploaded file"
 msgstr ""
 
+#, fuzzy
+msgid "Select a tab"
+msgstr "Veritabanını sil"
+
 msgid ""
 "Select a time grain for the visualization. The grain is the time interval"
 " represented by a single point on the chart."
@@ -8886,6 +8901,10 @@ msgstr "Şema seç"
 
 msgid "Select subject"
 msgstr ""
+
+#, fuzzy
+msgid "Select tab"
+msgstr "Veritabanını sil"
 
 msgid "Select table or type to search tables"
 msgstr "Tablo seç"
@@ -9747,9 +9766,6 @@ msgstr ""
 msgid "TABLES"
 msgstr "TABLOLAR"
 
-msgid "TEMPORAL X-AXIS"
-msgstr ""
-
 msgid "TEMPORAL_RANGE"
 msgstr ""
 
@@ -9884,6 +9900,9 @@ msgstr ""
 msgid ""
 "Templated link, it's possible to include {{ metric }} or other values "
 "coming from the controls."
+msgstr ""
+
+msgid "Temporal X-Axis"
 msgstr ""
 
 msgid ""
@@ -10631,6 +10650,10 @@ msgid "There was an error loading the schemas"
 msgstr "Şemaları yüklerken hata oluştu"
 
 msgid "There was an error loading the tables"
+msgstr "Tabloları yüklerken hata oluştu"
+
+#, fuzzy
+msgid "There was an error retrieving dashboard tabs."
 msgstr "Tabloları yüklerken hata oluştu"
 
 #, python-format
@@ -12956,9 +12979,6 @@ msgstr ""
 msgid "default"
 msgstr ""
 
-msgid "delete"
-msgstr "sil"
-
 msgid "descendant"
 msgstr ""
 
@@ -13424,9 +13444,6 @@ msgstr ""
 msgid "view instructions"
 msgstr ""
 
-msgid "virtual"
-msgstr "sanal"
-
 msgid "viz type"
 msgstr ""
 
@@ -13462,3 +13479,4 @@ msgstr "yıl"
 
 msgid "zoom area"
 msgstr ""
+

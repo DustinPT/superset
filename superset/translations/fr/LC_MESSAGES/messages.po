@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-07-30 17:32-0600\n"
+"POT-Creation-Date: 2024-09-03 16:31+0800\n"
 "PO-Revision-Date: 2021-11-16 17:33+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fr\n"
@@ -3747,6 +3747,9 @@ msgstr "Le tableau de bord [%s] a été créé et le graphique [%s] y a été aj
 msgid "Dashboard [{}] just got created and chart [{}] was added to it"
 msgstr "Le tableau de bord [{}] a été créé et le graphique [{}] y a été ajouté"
 
+msgid "Dashboard cannot be copied due to invalid parameters."
+msgstr ""
+
 msgid "Dashboard could not be deleted."
 msgstr "Le tableau de bord n'a pas pu être supprimé."
 
@@ -4408,9 +4411,10 @@ msgstr "%s supprimé"
 msgid "Deleted: %s"
 msgstr "%s supprimé"
 
+#, fuzzy
 msgid ""
-"Deleting a tab will remove all content within it. You may still reverse "
-"this action with the"
+"Deleting a tab will remove all content within it and will deactivate any "
+"related alerts or reports. You may still reverse this action with the"
 msgstr ""
 "La suppression d’un onglet supprimera tout le contenu qu’il contient. "
 "Vous pouvez toujours annuler cette action avec le"
@@ -5023,6 +5027,10 @@ msgstr "Code intégré"
 #, fuzzy
 msgid "Embed dashboard"
 msgstr "Tableau de bord intégré"
+
+#, fuzzy
+msgid "Embedded dashboard could not be deleted."
+msgstr "Le tableau de bord n'a pas pu être supprimé."
 
 msgid "Embedding deactivated."
 msgstr "L’intégration est désactivée."
@@ -9217,6 +9225,10 @@ msgstr "Intervalle d’actualisation"
 msgid "Refresh interval saved"
 msgstr "Intervalle d’actualisation enregistrée"
 
+#, fuzzy
+msgid "Refresh table schema"
+msgstr "Voir le schéma du tableau"
+
 msgid "Refresh the default values"
 msgstr "Actualiser les valeurs par défaut"
 
@@ -10165,6 +10177,10 @@ msgstr "Sélectionner un schéma si la base de données le prend en charge"
 msgid "Select a sheet name from the uploaded file"
 msgstr "Sélectionner une base de données vers laquelle téléverser le fichier"
 
+#, fuzzy
+msgid "Select a tab"
+msgstr "Supprimer la base de données"
+
 msgid ""
 "Select a time grain for the visualization. The grain is the time interval"
 " represented by a single point on the chart."
@@ -10331,6 +10347,10 @@ msgstr "Sélectionner un schéma"
 
 msgid "Select subject"
 msgstr "Sélectionner un objet"
+
+#, fuzzy
+msgid "Select tab"
+msgstr "Tout Dé-Sélectionner"
 
 #, fuzzy
 msgid "Select table or type to search tables"
@@ -11358,10 +11378,6 @@ msgid "TABLES"
 msgstr "TABLEAUX"
 
 #, fuzzy
-msgid "TEMPORAL X-AXIS"
-msgstr "AXE DES ABSISSES TEMPOREL"
-
-#, fuzzy
 msgid "TEMPORAL_RANGE"
 msgstr "TEMPORAL_RANGE"
 
@@ -11518,6 +11534,10 @@ msgid ""
 msgstr ""
 "Lien template, il est possible d'inclure {{ metric }} or autres valeurs "
 "provenant de ces contrôles."
+
+#, fuzzy
+msgid "Temporal X-Axis"
+msgstr "AXE DES ABSISSES TEMPOREL"
 
 msgid ""
 "Terminate running queries when browser window closed or navigated to "
@@ -12498,6 +12518,12 @@ msgstr "Une erreur s'est produite lors de la récupération des schémas"
 
 msgid "There was an error loading the tables"
 msgstr "Une erreur s'est produite lors de la récupération des tableaux"
+
+#, fuzzy
+msgid "There was an error retrieving dashboard tabs."
+msgstr ""
+"Désolé, une erreur s'est produite lors de la récupération des "
+"informations de cet ensemble de données"
 
 #, fuzzy, python-format
 msgid "There was an error saving the favorite status: %s"
@@ -15332,9 +15358,6 @@ msgstr "deckGL"
 msgid "default"
 msgstr "défaut"
 
-msgid "delete"
-msgstr "supprimer "
-
 #, fuzzy
 msgid "descendant"
 msgstr "décroissant"
@@ -15877,9 +15900,6 @@ msgstr "variance"
 msgid "view instructions"
 msgstr "voir les instructions"
 
-msgid "virtual"
-msgstr "virtuel"
-
 #, fuzzy
 msgid "viz type"
 msgstr "Type Viz"
@@ -15919,3 +15939,4 @@ msgstr "année"
 
 msgid "zoom area"
 msgstr "zone de zoom"
+

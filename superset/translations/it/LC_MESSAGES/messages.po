@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-07-30 17:32-0600\n"
+"POT-Creation-Date: 2024-09-03 16:31+0800\n"
 "PO-Revision-Date: 2018-02-11 22:26+0200\n"
 "Last-Translator: Raffaele Spangaro <raffa@raffaelespangaro.it>\n"
 "Language: it\n"
@@ -3437,6 +3437,9 @@ msgstr ""
 msgid "Dashboard [{}] just got created and chart [{}] was added to it"
 msgstr ""
 
+msgid "Dashboard cannot be copied due to invalid parameters."
+msgstr ""
+
 msgid "Dashboard could not be deleted."
 msgstr "La tua query non può essere salvata"
 
@@ -4050,8 +4053,8 @@ msgid "Deleted: %s"
 msgstr "Cancella"
 
 msgid ""
-"Deleting a tab will remove all content within it. You may still reverse "
-"this action with the"
+"Deleting a tab will remove all content within it and will deactivate any "
+"related alerts or reports. You may still reverse this action with the"
 msgstr ""
 
 msgid "Delimited long & lat single column"
@@ -4600,6 +4603,10 @@ msgstr ""
 #, fuzzy
 msgid "Embed dashboard"
 msgstr "Salva e vai alla dashboard"
+
+#, fuzzy
+msgid "Embedded dashboard could not be deleted."
+msgstr "La tua query non può essere salvata"
 
 msgid "Embedding deactivated."
 msgstr ""
@@ -8432,6 +8439,10 @@ msgstr ""
 msgid "Refresh interval saved"
 msgstr ""
 
+#, fuzzy
+msgid "Refresh table schema"
+msgstr "Rimuovi il grafico dalla dashboard"
+
 msgid "Refresh the default values"
 msgstr ""
 
@@ -9319,6 +9330,10 @@ msgstr ""
 msgid "Select a sheet name from the uploaded file"
 msgstr ""
 
+#, fuzzy
+msgid "Select a tab"
+msgstr "Database"
+
 msgid ""
 "Select a time grain for the visualization. The grain is the time interval"
 " represented by a single point on the chart."
@@ -9476,6 +9491,10 @@ msgstr ""
 
 msgid "Select subject"
 msgstr ""
+
+#, fuzzy
+msgid "Select tab"
+msgstr "Seleziona data finale"
 
 msgid "Select table or type to search tables"
 msgstr ""
@@ -10402,10 +10421,6 @@ msgid "TABLES"
 msgstr ""
 
 #, fuzzy
-msgid "TEMPORAL X-AXIS"
-msgstr "è temporale"
-
-#, fuzzy
 msgid "TEMPORAL_RANGE"
 msgstr "è temporale"
 
@@ -10552,6 +10567,10 @@ msgid ""
 "Templated link, it's possible to include {{ metric }} or other values "
 "coming from the controls."
 msgstr ""
+
+#, fuzzy
+msgid "Temporal X-Axis"
+msgstr "è temporale"
 
 msgid ""
 "Terminate running queries when browser window closed or navigated to "
@@ -11332,6 +11351,10 @@ msgstr ""
 
 msgid "There was an error loading the tables"
 msgstr ""
+
+#, fuzzy
+msgid "There was an error retrieving dashboard tabs."
+msgstr "Errore nel creare il datasource"
 
 #, python-format
 msgid "There was an error saving the favorite status: %s"
@@ -13776,9 +13799,6 @@ msgstr ""
 msgid "default"
 msgstr "Endpoint predefinito"
 
-msgid "delete"
-msgstr "Cancella"
-
 msgid "descendant"
 msgstr ""
 
@@ -14283,9 +14303,6 @@ msgstr ""
 msgid "view instructions"
 msgstr "descrizione"
 
-msgid "virtual"
-msgstr ""
-
 #, fuzzy
 msgid "viz type"
 msgstr "Tipo"
@@ -14322,3 +14339,4 @@ msgstr "anno"
 
 msgid "zoom area"
 msgstr ""
+

@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-07-30 17:32-0600\n"
+"POT-Creation-Date: 2024-09-03 16:31+0800\n"
 "PO-Revision-Date: 2024-07-03 22:19+0400\n"
 "Last-Translator: Daniel Checheta\n"
 "Language: ru\n"
@@ -3469,6 +3469,9 @@ msgstr "Дашборд [%s] был создан и диаграмма [%s] до�
 msgid "Dashboard [{}] just got created and chart [{}] was added to it"
 msgstr "Дашборд [{}] был создан и диаграмма [{}] была добавлена на него"
 
+msgid "Dashboard cannot be copied due to invalid parameters."
+msgstr ""
+
 msgid "Dashboard could not be deleted."
 msgstr "Не удалось удалить дашборд"
 
@@ -4101,9 +4104,10 @@ msgstr "Удалено: %s"
 msgid "Deleted: %s"
 msgstr "Удалено: %s"
 
+#, fuzzy
 msgid ""
-"Deleting a tab will remove all content within it. You may still reverse "
-"this action with the"
+"Deleting a tab will remove all content within it and will deactivate any "
+"related alerts or reports. You may still reverse this action with the"
 msgstr ""
 "Удаление вкладки удалит все ее содержимое. Вы можете отменить это "
 "действие при помощи сочетания клавиш"
@@ -4668,6 +4672,10 @@ msgstr "Код для встраивания"
 
 msgid "Embed dashboard"
 msgstr "Встроить дашборд"
+
+#, fuzzy
+msgid "Embedded dashboard could not be deleted."
+msgstr "Не удалось удалить дашборд"
 
 msgid "Embedding deactivated."
 msgstr "Встраивание отключено"
@@ -8477,6 +8485,10 @@ msgstr "Интервал обновления"
 msgid "Refresh interval saved"
 msgstr "Интервал обновления сохранен"
 
+#, fuzzy
+msgid "Refresh table schema"
+msgstr "Таблица"
+
 msgid "Refresh the default values"
 msgstr "Обновить значения по умолчанию"
 
@@ -9342,6 +9354,10 @@ msgstr "Укажите схему, если она поддерживается 
 msgid "Select a sheet name from the uploaded file"
 msgstr "Выберите лист из загруженного файла"
 
+#, fuzzy
+msgid "Select a tab"
+msgstr "Выбрать базу данных"
+
 msgid ""
 "Select a time grain for the visualization. The grain is the time interval"
 " represented by a single point on the chart."
@@ -9495,6 +9511,10 @@ msgstr "Выберите схему"
 
 msgid "Select subject"
 msgstr ""
+
+#, fuzzy
+msgid "Select tab"
+msgstr "Выбрать теги"
 
 #, fuzzy
 msgid "Select table or type to search tables"
@@ -10412,9 +10432,6 @@ msgstr ""
 msgid "TABLES"
 msgstr "ТАБЛИЦЫ"
 
-msgid "TEMPORAL X-AXIS"
-msgstr "Ось дат"
-
 #, fuzzy
 msgid "TEMPORAL_RANGE"
 msgstr "Содержит дату/время"
@@ -10560,6 +10577,10 @@ msgid ""
 msgstr ""
 "Шаблонная ссылка, можно включить {{ metric }} или другие значения, "
 "поступающие из элементов управления."
+
+#, fuzzy
+msgid "Temporal X-Axis"
+msgstr "Ось дат"
 
 msgid ""
 "Terminate running queries when browser window closed or navigated to "
@@ -11469,6 +11490,10 @@ msgstr "Произошла ошибка при загрузке схем"
 
 msgid "There was an error loading the tables"
 msgstr "Произошла ошибка при загрузке таблиц"
+
+#, fuzzy
+msgid "There was an error retrieving dashboard tabs."
+msgstr "Произошла ошибка при датасета: %s"
 
 #, python-format
 msgid "There was an error saving the favorite status: %s"
@@ -14025,9 +14050,6 @@ msgstr "карта deckGL"
 msgid "default"
 msgstr "по умолчанию"
 
-msgid "delete"
-msgstr "удалить"
-
 msgid "descendant"
 msgstr "потомок"
 
@@ -14520,9 +14542,6 @@ msgstr "дисперсия"
 msgid "view instructions"
 msgstr "посмотреть руководство"
 
-msgid "virtual"
-msgstr "виртуальный"
-
 msgid "viz type"
 msgstr "тип визуализации"
 
@@ -14558,3 +14577,4 @@ msgstr "год"
 
 msgid "zoom area"
 msgstr ""
+

@@ -35,6 +35,7 @@ def get_language_pack(locale: str) -> Optional[dict[str, Any]]:
     >>> get_language_pack('fr')['Dashboards']
     "Tableaux de bords"
     """
+    print('locale',locale)
     pack = ALL_LANGUAGE_PACKS.get(locale)
     if not pack:
         filename = DIR + f"/{locale}/LC_MESSAGES/messages.json"

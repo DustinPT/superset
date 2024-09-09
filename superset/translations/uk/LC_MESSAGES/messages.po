@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  \n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-07-30 17:32-0600\n"
+"POT-Creation-Date: 2024-09-03 16:31+0800\n"
 "PO-Revision-Date: 2023-09-17 12:57+0300\n"
 "Last-Translator: \n"
 "Language: uk\n"
@@ -3499,6 +3499,9 @@ msgstr "Дашборд [%s] був щойно створений, а діагр�
 msgid "Dashboard [{}] just got created and chart [{}] was added to it"
 msgstr "Дашборд [{}] був щойно створений, і діаграма [{}] була додана до нього"
 
+msgid "Dashboard cannot be copied due to invalid parameters."
+msgstr ""
+
 msgid "Dashboard could not be deleted."
 msgstr "Не вдалося видалити інформаційну панель."
 
@@ -4135,9 +4138,10 @@ msgstr "Видалено %s"
 msgid "Deleted: %s"
 msgstr "Видалено: %s"
 
+#, fuzzy
 msgid ""
-"Deleting a tab will remove all content within it. You may still reverse "
-"this action with the"
+"Deleting a tab will remove all content within it and will deactivate any "
+"related alerts or reports. You may still reverse this action with the"
 msgstr ""
 "Видалення вкладки видалить весь вміст всередині неї. Ви все ще можете "
 "змінити цю дію за допомогою"
@@ -4708,6 +4712,10 @@ msgstr "Вбудувати код"
 
 msgid "Embed dashboard"
 msgstr "Вбудувати інформаційну панель"
+
+#, fuzzy
+msgid "Embedded dashboard could not be deleted."
+msgstr "Не вдалося видалити інформаційну панель."
 
 msgid "Embedding deactivated."
 msgstr "Вбудовування деактивовано."
@@ -8540,6 +8548,10 @@ msgstr "Інтервал оновлення"
 msgid "Refresh interval saved"
 msgstr "Оновити інтервал збережено"
 
+#, fuzzy
+msgid "Refresh table schema"
+msgstr "Див. Схему таблиці"
+
 msgid "Refresh the default values"
 msgstr "Оновити значення за замовчуванням"
 
@@ -9411,6 +9423,10 @@ msgstr "Виберіть схему, якщо база даних підтрим
 msgid "Select a sheet name from the uploaded file"
 msgstr "Виберіть базу даних для завантаження файлу в"
 
+#, fuzzy
+msgid "Select a tab"
+msgstr "Видалити базу даних"
+
 msgid ""
 "Select a time grain for the visualization. The grain is the time interval"
 " represented by a single point on the chart."
@@ -9561,6 +9577,10 @@ msgstr "Виберіть схему"
 
 msgid "Select subject"
 msgstr "Виберіть тему"
+
+#, fuzzy
+msgid "Select tab"
+msgstr "Скасувати всі"
 
 msgid "Select table or type to search tables"
 msgstr "Виберіть таблицю або введіть для пошукових таблиць"
@@ -10491,9 +10511,6 @@ msgstr ""
 msgid "TABLES"
 msgstr "Столи"
 
-msgid "TEMPORAL X-AXIS"
-msgstr "Тимчасова осі x"
-
 msgid "TEMPORAL_RANGE"
 msgstr "Temporal_range"
 
@@ -10643,6 +10660,10 @@ msgid ""
 msgstr ""
 "Шаблове посилання, можна включити {{metric}} або інші значення, що "
 "надходять з елементів управління."
+
+#, fuzzy
+msgid "Temporal X-Axis"
+msgstr "Тимчасова осі x"
 
 msgid ""
 "Terminate running queries when browser window closed or navigated to "
@@ -11571,6 +11592,10 @@ msgstr "Сталася помилка, що завантажує схеми"
 
 msgid "There was an error loading the tables"
 msgstr "Сталася помилка, що завантажує таблиці"
+
+#, fuzzy
+msgid "There was an error retrieving dashboard tabs."
+msgstr "Був набір даних про помилку"
 
 #, python-format
 msgid "There was an error saving the favorite status: %s"
@@ -14174,9 +14199,6 @@ msgstr "палуба"
 msgid "default"
 msgstr "за замовчуванням"
 
-msgid "delete"
-msgstr "видаляти"
-
 msgid "descendant"
 msgstr "нащадок"
 
@@ -14658,9 +14680,6 @@ msgstr "дисперсія"
 msgid "view instructions"
 msgstr "переглянути інструкції"
 
-msgid "virtual"
-msgstr "віртуальний"
-
 msgid "viz type"
 msgstr "тип з -за"
 
@@ -14697,3 +14716,4 @@ msgstr "рік"
 
 msgid "zoom area"
 msgstr "масштаб"
+

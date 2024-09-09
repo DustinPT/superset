@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-07-30 17:32-0600\n"
+"POT-Creation-Date: 2024-09-03 16:31+0800\n"
 "PO-Revision-Date: 2023-05-22 08:04-0400\n"
 "Last-Translator: \n"
 "Language: pt_BR\n"
@@ -3558,6 +3558,9 @@ msgstr "O painel [%s] acabou de ser criado e o gráfico [%s] foi adicionado a el
 msgid "Dashboard [{}] just got created and chart [{}] was added to it"
 msgstr "Painel [{}] acabou de ser criado e o gráfico [{}] foi adicionado a ele"
 
+msgid "Dashboard cannot be copied due to invalid parameters."
+msgstr ""
+
 msgid "Dashboard could not be deleted."
 msgstr "Não foi possível remover o painel."
 
@@ -4195,9 +4198,10 @@ msgstr "Excluído: %s"
 msgid "Deleted: %s"
 msgstr "Excluído: %s"
 
+#, fuzzy
 msgid ""
-"Deleting a tab will remove all content within it. You may still reverse "
-"this action with the"
+"Deleting a tab will remove all content within it and will deactivate any "
+"related alerts or reports. You may still reverse this action with the"
 msgstr ""
 "Excluindo uma guia irá remover todo o conteúdo dela. Você ainda pode "
 "reverter isso com o"
@@ -4770,6 +4774,10 @@ msgstr "Incorporar código"
 
 msgid "Embed dashboard"
 msgstr "Incorporar painel"
+
+#, fuzzy
+msgid "Embedded dashboard could not be deleted."
+msgstr "Não foi possível remover o painel."
 
 msgid "Embedding deactivated."
 msgstr "Incorporação desativada."
@@ -8636,6 +8644,10 @@ msgstr "Atualizar intervalo"
 msgid "Refresh interval saved"
 msgstr "Intervalo de atualização salvo"
 
+#, fuzzy
+msgid "Refresh table schema"
+msgstr "Ver esquema da tabela"
+
 msgid "Refresh the default values"
 msgstr "Atualizar os valores padrão"
 
@@ -9521,6 +9533,10 @@ msgstr "Selecione um esquema se o banco de dados for compatível com isso"
 msgid "Select a sheet name from the uploaded file"
 msgstr "Selecione um banco de dados para enviar o arquivo"
 
+#, fuzzy
+msgid "Select a tab"
+msgstr "Excluir banco de dados"
+
 msgid ""
 "Select a time grain for the visualization. The grain is the time interval"
 " represented by a single point on the chart."
@@ -9676,6 +9692,10 @@ msgstr "Selecionar esquema"
 
 msgid "Select subject"
 msgstr "Selecionar assunto"
+
+#, fuzzy
+msgid "Select tab"
+msgstr "Desmarcar tudo"
 
 msgid "Select table or type to search tables"
 msgstr "Selecione a tabela ou digite para pesquisar tabelas"
@@ -10604,9 +10624,6 @@ msgstr ""
 msgid "TABLES"
 msgstr "TABELAS"
 
-msgid "TEMPORAL X-AXIS"
-msgstr "EIXO X TEMPORAL"
-
 msgid "TEMPORAL_RANGE"
 msgstr "INTERVALO TEMPORAL"
 
@@ -10756,6 +10773,10 @@ msgid ""
 msgstr ""
 "Link do modelo, é possível incluir {{ métrica }}  ou outros valores "
 "provenientes dos controles."
+
+#, fuzzy
+msgid "Temporal X-Axis"
+msgstr "EIXO X TEMPORAL"
 
 msgid ""
 "Terminate running queries when browser window closed or navigated to "
@@ -11689,6 +11710,10 @@ msgstr "Ocorreu um erro ao carregar os esquemas"
 
 msgid "There was an error loading the tables"
 msgstr "Ocorreu um erro ao carregar as tabelas"
+
+#, fuzzy
+msgid "There was an error retrieving dashboard tabs."
+msgstr "Houve um erro ao buscar o conjunto de dados"
 
 #, python-format
 msgid "There was an error saving the favorite status: %s"
@@ -14329,9 +14354,6 @@ msgstr "deckGL"
 msgid "default"
 msgstr "padrão"
 
-msgid "delete"
-msgstr "excluir"
-
 #, fuzzy
 msgid "descendant"
 msgstr "Ordenação decrescente"
@@ -14823,9 +14845,6 @@ msgstr "variação"
 msgid "view instructions"
 msgstr "exibir instruções"
 
-msgid "virtual"
-msgstr "virtual"
-
 msgid "viz type"
 msgstr "tipo de visualização"
 
@@ -14862,3 +14881,4 @@ msgstr "ano"
 
 msgid "zoom area"
 msgstr "área de zoom"
+

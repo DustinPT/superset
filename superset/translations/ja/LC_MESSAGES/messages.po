@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-07-30 17:32-0600\n"
+"POT-Creation-Date: 2024-09-03 16:31+0800\n"
 "PO-Revision-Date: 2024-05-14 13:30+0900\n"
 "Last-Translator: Yuri Umezaki <bungoume@gmail.com>\n"
 "Language: ja\n"
@@ -3327,6 +3327,9 @@ msgstr "ダッシュボード [%s] が作成され、グラフ [%s] が追加さ
 msgid "Dashboard [{}] just got created and chart [{}] was added to it"
 msgstr "ダッシュボード [{}] が作成されチャート [{}] が追加されました。"
 
+msgid "Dashboard cannot be copied due to invalid parameters."
+msgstr ""
+
 msgid "Dashboard could not be deleted."
 msgstr "ダッシュボードを削除できませんでした。"
 
@@ -3905,9 +3908,10 @@ msgstr "%s を削除しました"
 msgid "Deleted: %s"
 msgstr "削除しました: %s"
 
+#, fuzzy
 msgid ""
-"Deleting a tab will remove all content within it. You may still reverse "
-"this action with the"
+"Deleting a tab will remove all content within it and will deactivate any "
+"related alerts or reports. You may still reverse this action with the"
 msgstr "タブを削除すると、タブ内のすべてのコンテンツが削除されます。このアクションを元に戻すこともできます。"
 
 msgid "Delimited long & lat single column"
@@ -4438,6 +4442,10 @@ msgstr "コードを埋め込む"
 
 msgid "Embed dashboard"
 msgstr "ダッシュボードを埋め込む"
+
+#, fuzzy
+msgid "Embedded dashboard could not be deleted."
+msgstr "ダッシュボードを削除できませんでした。"
 
 msgid "Embedding deactivated."
 msgstr "埋め込みが無効になりました。"
@@ -8087,6 +8095,10 @@ msgstr "更新間隔"
 msgid "Refresh interval saved"
 msgstr "更新間隔が保存されました"
 
+#, fuzzy
+msgid "Refresh table schema"
+msgstr "テーブルスキーマを参照"
+
 msgid "Refresh the default values"
 msgstr "デフォルト値を更新する"
 
@@ -8930,6 +8942,10 @@ msgstr "データベースがこれをサポートしている場合はスキー
 msgid "Select a sheet name from the uploaded file"
 msgstr "ファイルをアップロードするデータベースを選択してください。"
 
+#, fuzzy
+msgid "Select a tab"
+msgstr "データベースを削除"
+
 msgid ""
 "Select a time grain for the visualization. The grain is the time interval"
 " represented by a single point on the chart."
@@ -9081,6 +9097,10 @@ msgstr "スキームの選択"
 
 msgid "Select subject"
 msgstr "件名を選択"
+
+#, fuzzy
+msgid "Select tab"
+msgstr "タグの選択"
 
 msgid "Select table or type to search tables"
 msgstr "テーブルを選択するか、テーブルを検索するタイプを選択してください"
@@ -9960,9 +9980,6 @@ msgstr "構文エラー: %(qualifier)s 入力 \"%(input)s\" は \"%(expected)s �
 msgid "TABLES"
 msgstr "テーブル"
 
-msgid "TEMPORAL X-AXIS"
-msgstr "時間X軸"
-
 msgid "TEMPORAL_RANGE"
 msgstr "TEMPORAL_RANGE"
 
@@ -10098,6 +10115,10 @@ msgid ""
 "Templated link, it's possible to include {{ metric }} or other values "
 "coming from the controls."
 msgstr "テンプレート化されたリンク。{{ metric }} またはコントロールからの他の値を含めることができます。"
+
+#, fuzzy
+msgid "Temporal X-Axis"
+msgstr "時間X軸"
 
 msgid ""
 "Terminate running queries when browser window closed or navigated to "
@@ -10907,6 +10928,10 @@ msgstr "スキーマのロード中にエラーが発生しました"
 
 msgid "There was an error loading the tables"
 msgstr "テーブルのロード中にエラーが発生しました"
+
+#, fuzzy
+msgid "There was an error retrieving dashboard tabs."
+msgstr "データセットの取得中にエラーが発生しました"
 
 #, python-format
 msgid "There was an error saving the favorite status: %s"
@@ -13301,9 +13326,6 @@ msgstr "deckGL"
 msgid "default"
 msgstr "デフォルト"
 
-msgid "delete"
-msgstr "削除"
-
 msgid "descendant"
 msgstr "子孫"
 
@@ -13775,9 +13797,6 @@ msgstr "差異"
 msgid "view instructions"
 msgstr "説明を見る"
 
-msgid "virtual"
-msgstr "バーチャル"
-
 msgid "viz type"
 msgstr "可視化タイプ"
 
@@ -13814,3 +13833,4 @@ msgstr "年"
 
 msgid "zoom area"
 msgstr "ズームエリア"
+

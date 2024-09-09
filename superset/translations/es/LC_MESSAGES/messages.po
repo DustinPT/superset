@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2024-07-30 17:32-0600\n"
+"POT-Creation-Date: 2024-09-03 16:31+0800\n"
 "PO-Revision-Date: 2018-11-03 00:11+0100\n"
 "Last-Translator: Ruben Sastre <ruben.sastre@decathlon.com>\n"
 "Language: es\n"
@@ -3561,6 +3561,9 @@ msgstr "El dashboard [{}] ha sido creado y el gráfico [{}] ha sido añadido a �
 msgid "Dashboard [{}] just got created and chart [{}] was added to it"
 msgstr "El dashboard [{}] ha sido creado y el gráfico [{}] ha sido añadido a él"
 
+msgid "Dashboard cannot be copied due to invalid parameters."
+msgstr ""
+
 msgid "Dashboard could not be deleted."
 msgstr "El Dashboard no pudo ser eliminado."
 
@@ -4203,8 +4206,8 @@ msgid "Deleted: %s"
 msgstr "Eliminado: %s"
 
 msgid ""
-"Deleting a tab will remove all content within it. You may still reverse "
-"this action with the"
+"Deleting a tab will remove all content within it and will deactivate any "
+"related alerts or reports. You may still reverse this action with the"
 msgstr ""
 
 msgid "Delimited long & lat single column"
@@ -4763,6 +4766,10 @@ msgstr ""
 #, fuzzy
 msgid "Embed dashboard"
 msgstr "Guardar Dashboard"
+
+#, fuzzy
+msgid "Embedded dashboard could not be deleted."
+msgstr "El Dashboard no pudo ser eliminado."
 
 msgid "Embedding deactivated."
 msgstr ""
@@ -8764,6 +8771,10 @@ msgstr "Intérvalo de actualización"
 msgid "Refresh interval saved"
 msgstr "Intérvalo de actualización"
 
+#, fuzzy
+msgid "Refresh table schema"
+msgstr "Ver esquema de tabla"
+
 msgid "Refresh the default values"
 msgstr ""
 
@@ -9695,6 +9706,10 @@ msgstr "Especifica un esquema (si el sistema de base de datos lo soporta)."
 msgid "Select a sheet name from the uploaded file"
 msgstr ""
 
+#, fuzzy
+msgid "Select a tab"
+msgstr "Eliminar base de datos"
+
 msgid ""
 "Select a time grain for the visualization. The grain is the time interval"
 " represented by a single point on the chart."
@@ -9861,6 +9876,10 @@ msgstr "Selecciona un esquema (%s)"
 
 msgid "Select subject"
 msgstr ""
+
+#, fuzzy
+msgid "Select tab"
+msgstr "¿Realmente quieres borrar todo?"
 
 #, fuzzy
 msgid "Select table or type to search tables"
@@ -10824,10 +10843,6 @@ msgid "TABLES"
 msgstr "TABLAS"
 
 #, fuzzy
-msgid "TEMPORAL X-AXIS"
-msgstr "Es temporal"
-
-#, fuzzy
 msgid "TEMPORAL_RANGE"
 msgstr "Es temporal"
 
@@ -10979,6 +10994,10 @@ msgid ""
 "Templated link, it's possible to include {{ metric }} or other values "
 "coming from the controls."
 msgstr ""
+
+#, fuzzy
+msgid "Temporal X-Axis"
+msgstr "Es temporal"
 
 msgid ""
 "Terminate running queries when browser window closed or navigated to "
@@ -11813,6 +11832,12 @@ msgstr "Hubo un error con tu solicitud"
 #, fuzzy
 msgid "There was an error loading the tables"
 msgstr "Hubo un error con tu solicitud"
+
+#, fuzzy
+msgid "There was an error retrieving dashboard tabs."
+msgstr ""
+"Lo sentimos, hubo un error al obtener la información de la base de datos:"
+" %s"
 
 #, fuzzy, python-format
 msgid "There was an error saving the favorite status: %s"
@@ -14355,9 +14380,6 @@ msgstr ""
 msgid "default"
 msgstr "Por defecto"
 
-msgid "delete"
-msgstr "eliminar"
-
 #, fuzzy
 msgid "descendant"
 msgstr "Orden descendente"
@@ -14893,9 +14915,6 @@ msgstr "Triángulo"
 msgid "view instructions"
 msgstr "Tiempo en segundos"
 
-msgid "virtual"
-msgstr ""
-
 #, fuzzy
 msgid "viz type"
 msgstr "Tipo"
@@ -14933,3 +14952,4 @@ msgstr "año"
 
 msgid "zoom area"
 msgstr ""
+
