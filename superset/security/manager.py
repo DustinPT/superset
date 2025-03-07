@@ -21,10 +21,11 @@ import logging
 import re
 import time
 from collections import defaultdict
-from typing import Any, Callable, cast, NamedTuple, Optional, TYPE_CHECKING
+from typing import Any, Callable, cast, NamedTuple, Optional, TYPE_CHECKING, List, Set
 
 from flask import current_app, Flask, g, Request
 from flask_appbuilder import Model
+from flask_appbuilder.security.manager import BaseSecurityManager
 from flask_appbuilder.security.sqla.manager import SecurityManager
 from flask_appbuilder.security.sqla.models import (
     assoc_permissionview_role,
@@ -2720,3 +2721,29 @@ class SupersetSecurityManager(  # pylint: disable=too-many-public-methods
         return current_app.config["AUTH_ROLE_ADMIN"] in [
             role.name for role in self.get_user_roles()
         ]
+
+    def get_roles_from_keys(self, role_keys: List[str]) -> Set[BaseSecurityManager.role_model]:
+        """
+        Construct a list of FAB role objects, from a list of keys.
+
+        NOTE:
+        - keys are things like: "LDAP group DNs" or "OAUTH group names"
+        - we use AUTH_ROLES_MAPPING to map from keys, to FAB role names
+
+        :param role_keys: the list of FAB role keys
+        :return: a list of RoleModelView
+        """
+        _roles = super().get_roles_from_keys(role_keys)
+        prefix = "superset_"
+        for role_key in role_keys:
+            if role_key not in self.auth_roles_mapping and role_key.startswith(prefix):
+                fab_role_name = role_key[len(prefix):]
+                fab_role = self.find_role(fab_role_name)
+                if fab_role:
+                    _roles.add(fab_role)
+                else:
+                    logger.warning(
+                        "Can't find role: %s",
+                        fab_role_name,
+                    )
+        return _roles
